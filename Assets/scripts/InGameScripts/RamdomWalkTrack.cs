@@ -40,7 +40,7 @@ public class RamdomWalkTrack : MonoBehaviour
             fixedTimer = 0;
         }
 
-        //範囲内に入ったら目的地をPlayerにする。（それ以外はrandomWalk.csが働いてくれる。）
+        //範囲内に入ったら目的地をPlayerにする。
         if (Vector3.Distance(transform.position, playerTransform.position) <= range)
         {
             agent.SetDestination(playerTransform.position);
