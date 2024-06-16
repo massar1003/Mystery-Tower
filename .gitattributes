@@ -1,2 +1,6 @@
 *.unity filter=lfs diff=lfs merge=lfs -text
 Assets filter=lfs diff=lfs merge=lfs -text
+*.hoge filter=lfs diff=lfs merge=lfs -text
+*.fuga filter=lfs diff=lfs merge=lfs -text
+*.piyo filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
